@@ -1,0 +1,25 @@
+{
+    "name": "alegra-api/alegra-php",
+    "description": "Alegra (Invoicing and accounting software for SMEs) API integration in PHP",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AlegraApi\\AlegraPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alejandro Rojas G",
+            "email": "alejandrorg2103@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AlegraApi\\AlegraPhp\\Tests": "tests/"
+        }
+    }
+}
