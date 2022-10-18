@@ -14,16 +14,14 @@
             "email": "alejandrorg2103@gmail.com"
         }
     ],
-    "require": {
-        "phpunit/phpunit": "^9.5"
-    },
     "autoload-dev": {
         "psr-4": {
             "AlegraApi\\AlegraPhp\\Tests\\": "tests/"
         }
     },
     "require-dev": {
-        "squizlabs/php_codesniffer": "^3.7"
+        "squizlabs/php_codesniffer": "^3.7",
+        "phpunit/phpunit": "^9.5"
     },
     "scripts": {
         "tests": "phpunit --stop-on-error --stop-on-failure --stop-on-risky --colors=always",
