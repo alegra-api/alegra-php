@@ -33,5 +33,8 @@
         "phpcs-auto-fix": "@phpcs-fix --standard=.phpcs.xml",
         "phpcs-auto-check-project": "phpcs --report=summary -p",
         "phpcs-auto-fix-project": "phpcbf --report=summary -p"
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.5"
     }
 }
